@@ -48,7 +48,7 @@ print("-" * 30)
 print(f"ИТОГО К ОПЛАТЕ: {total_sum} руб.")
 print("="*30)
 
-# --- СОХРАНЕНИЕ В ФАЙЛ (Бонус для портфолио) ---
+# --- СОХРАНЕНИЕ В ФАЙЛ 
 with open("report.txt", "a", encoding="utf-8") as file:
     file.write(f"\nОтчет от новой сессии. Итого: {total_sum} руб.")
     print("\n✅ Данные сохранены в файл report.txt")
